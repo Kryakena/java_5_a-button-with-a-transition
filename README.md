@@ -1,4 +1,4 @@
-![2024-11-14_16-34-02](https://github.com/user-attachments/assets/28a95bcf-62ca-4e27-acf9-130c1bd51794)ПРОЕКТ (Windows 10) - Создание 1го сайта на java (для новичков)
+# ПРОЕКТ (Windows 10) - Создание 1го сайта на java (для новичков)
 
 Источник: видео от 09.12.2022 г. "JAVA СОЗДАНИЕ САЙТА С 0" https://www.youtube.com/watch?v=lXDJqbpQ-rg
 
@@ -97,13 +97,25 @@ public class SiteController {
     <title>HELLO WORLD</title>  
 </head>  
 <!--<style>  
-    h1 {        color: green;        font-size: 200px;        padding: 30px;        display: none;    }  
-    body {        background: black;    }</style>-->  
+    h1 {
+	color: green;
+	font-size: 200px;
+	padding: 30px;
+	display: none;
+	}  
+    body {
+	background: black;
+	}
+</style>-->  
 <!--<script>  
-    function helloShow(){        document.getElementById('hello').style.display='block'        document.getElementById('button').style.display='none'    }</script>-->  
+    function helloShow(){
+	document.getElementById('hello').style.display='block'
+	document.getElementById('button').style.display='none'
+	}
+</script>-->  
 <body>  
-<h1 id="hello">HELLO WORLD</h1>  
-<button onclick="helloShow()" id="button">SHOW</button>  
+	<h1 id="hello">HELLO WORLD</h1>  
+	<button onclick="helloShow()" id="button">SHOW</button>  
 </body>  
 </html>
 ```
@@ -162,8 +174,8 @@ public class SiteController {
     }  
 </script>  
 <body>  
-<h1 id="hello">HELLO WORLD</h1>  
-<button class='kryakena kryaken' onclick="helloShow()" id="button">SHOW</button>  
+	<h1 id="hello">HELLO WORLD</h1>  
+	<button class='kryakena kryaken' onclick="helloShow()" id="button">SHOW</button>  
 </body>  
 </html>
 ```
@@ -202,3 +214,5 @@ server.port=80
 
 37. выбрать в "Git" --> "GitHub" --> "Share..."
 ![2024-11-14_17-29-20](https://github.com/user-attachments/assets/ae43fd3d-2ea4-4e1a-b35f-9eecc519725d)
+
+38. дать название git и краткое название, нажать кнопку, чтобы расшарить
