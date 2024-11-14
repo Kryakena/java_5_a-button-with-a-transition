@@ -1,6 +1,9 @@
 # ПРОЕКТ от 14.11.2024 г. (Windows 10) - Создание 1го сайта на java (для новичков)
 
-Источник: видео от 09.12.2022 г. "JAVA СОЗДАНИЕ САЙТА С 0" https://www.youtube.com/watch?v=lXDJqbpQ-rg
+Источник: 
+
+1. видео от 09.12.2022 г. "JAVA СОЗДАНИЕ САЙТА С 0" https://www.youtube.com/watch?v=lXDJqbpQ-rg;
+2. видео от 2023 г. "Как выложить код(проект) из IntelliJ IDEA на GITHUB." https://rutube.ru/video/fd26834494bb95b907777100ca13b163/.
 
 # Подготовка к созданию сайта на JAVA
 
@@ -39,6 +42,8 @@
 11. Нажать на кнопку "Generate"
 
 12. Распаковать скаченный zip архив на диск D в папку с будущим проектом.
+
+# Создание сайта на JAVA
 
 13. запустить папку, ранее извлеченную из скачанного архива, с помощью IntelliJ IDEA Community Edition
 
@@ -133,6 +138,8 @@ public class SiteController {
 24. в браузере в новой вкладке в адресной строке ввести "http://localhost:8080/main"
 ![2024-11-13_01-19-28](https://github.com/user-attachments/assets/e3fa7bd7-8c62-4812-8c7e-7a1c30866502)
 
+# Создание сайта на JAVA (продолжение) - работа неявного (есть еще явный - отдельным файлом) CSS
+
 25. Ввести в файле "main.html" 2 произвольных тега, добавить CSS и скрипт (что происходит при нажатии кнопки "SHOW")
 
 ```html
@@ -179,6 +186,9 @@ public class SiteController {
 </body>  
 </html>
 ```
+
+# Создание сайта на JAVA (продолжение) - настройка порта
+
 26. src --> main --> resources --> templates --> application.properties
 
 ```html
@@ -187,6 +197,8 @@ server.port=80
 27. в браузере в новой вкладке в адресной строке ввести "http://localhost:80/main"
 
 28. при нажатии кнопки на клавиатуре "Enter" номер порта автоматически уходит и получается адрес http://localhost/main
+
+# Создание сайта на JAVA (продолжение) - собрать с помощью Maven
 
 29. IntelliJ IDEA Community Edition --> раздел в правом верхнем углу "Maven" --> нажать на кнопку "Консоль"
 ![2024-11-14_16-24-49](https://github.com/user-attachments/assets/ad004d80-6571-4360-bb1a-944827ce0524)
@@ -202,6 +214,8 @@ server.port=80
 
 33. появятся файлы в папке "target"
 ![2024-11-14_16-35-21](https://github.com/user-attachments/assets/bcbeddd9-f8bd-428a-a7ea-4f49719f2ea4)
+
+# Добавление проекта сайта на JAVA на GitHub
 
 34. открыть в IntelliJ IDEA Community Edition раздел "Git" --> стрелочка вниз --> "Settings"
 ![2024-11-14_17-13-43](https://github.com/user-attachments/assets/98a81e7a-5afd-4b6f-a00e-11825159858d)
