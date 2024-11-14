@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HELLO WORLD</title>
+</head>
+<style> /* здесь можно вводить любые значения, но как в файле CSS менять не получится */
+    h1 {
+        color: green; /* зеленый цвет шрифта */
+        font-size: 200px; /* размер шрифта */
+        padding: 30px; /* отступ от краёв */
+        /* Свойство margin-top CSS определяет внешний отступ в верхней части элемента. Значения длины: margin-top: 10px - абсолютное значение; margin-top: 1em - относительно размера текста; margin-top: 5% - относительно ширины ближайшего контейнера */
+        display: none;
+    }
+
+    .kryakena {
+    /* произвольный тег */
+        background: red;
+    }
+
+    .kryaken {
+        color: green;
+        font-size: 200px;
+        padding: 30px;
+    }
+
+    body {
+        background: black;
+    }
+</style>
+<script type="text/javascript">
+    function helloShow(){
+        document.getElementById('hello').style.display='block'
+        document.getElementById('button').style.display='none'
+    }
+</script>
+<body>
+<h1 id="hello">HELLO WORLD</h1>
+<button class='kryakena kryaken' onclick="helloShow()" id="button">SHOW</button>
+</body>
+</html>
